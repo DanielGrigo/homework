@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color:rgb(255, 255, 255);
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+}
+
+.lettera {
+    height: 23px;
+}
+
+.herocontainer {
+    background-color: rgb(254,143,53);
+}
+.hero--info {
+    color: rgb(44, 21, 0);
+    margin: 130px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.hero--info h1 {
+    width: 400px;
+    font-family: 'Lucida Sans';
+    padding-top: 150px;
+    font-size: 40px;
+}
+.hero--info p {
+    width: 300px;
+    padding-bottom: 150px;
+}
+.connect {
+    background-color: rgb(252, 101, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.connect p {
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
